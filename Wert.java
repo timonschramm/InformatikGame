@@ -5,7 +5,12 @@ public class Wert {
           element = pElement;
           hoehe = pHoehe;
      }
-     public void test(){
+     public String getElement(){
+           return element;           
+       } 
   
-       }
+  public int getHoehe(){
+     return hoehe;
+    }    
+
   }
