@@ -9,4 +9,8 @@ public class Quiz {
     System.out.println("spielen");
     System.out.println(frage1.getFrage());
     }
+  
+   public void spielen() {
+     System.out.println("spiele");
+   }
 }
